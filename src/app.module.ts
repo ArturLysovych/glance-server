@@ -15,7 +15,7 @@ import { ConfigModule } from '@nestjs/config';
         secure: false,
         auth: {
           user: process.env.MAIL,
-          pass: process.env.MAIL_PASSWORD,
+          pass: process.env.MAIL_TOKEN,
         },
       },
     }),
